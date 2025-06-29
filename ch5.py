@@ -49,5 +49,10 @@ random["one"] = 1
 print(random)
 random["one2"] = 1 #Collision
 print(random)
-random["one2"] = 2 #Collision. this changes the value
-print(random)
+# random["one2"] = 2 #Collision. this changes the value
+# print(random)
+
+# Find all keys with value == 1
+for k in random:
+    if random[k] == 1:
+        print(k)
