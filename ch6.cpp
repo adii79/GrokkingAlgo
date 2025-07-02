@@ -28,6 +28,7 @@ void search(const char* name,   std::vector<node> graph){
     std::vector<const char*> searchQueue;
    std::vector<const char*> searched;
 
+   // add name and neighbor queue to search queue
    for(const node& n: graph){
     if(strcmp(n.name,name) == 0 ){
         for(const char* neighbor: n.neighbors){

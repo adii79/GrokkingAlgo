@@ -18,6 +18,7 @@ public:
     }
 
     bool isFull() {
+        
         return (rear + 1) % MAX == front;
     }
 
