@@ -112,7 +112,6 @@ int binarySearch1(std::vector<int> arr, int target) {
 //     }
 // };
 
-
 std::vector<int> quickSort(std::vector<int> arr){
     if (arr.size()<2){
         return arr;
